@@ -108,7 +108,7 @@ def test_device_tools_require_device_id():
 
 
 def test_thru_time_is_always_sent_because_the_live_api_requires_it():
-    """reference/auvik-openapi-v1.json marks filter[thruTime] OPTIONAL
+    """Auvik's OpenAPI document marks filter[thruTime] OPTIONAL
     ("defaults to current time"). The live API disagrees. Every /v1/stat/* call
     without it returns HTTP 400, identically across probes varying the tenant,
     deviceId, interval and timestamp format:

@@ -1,6 +1,6 @@
 """Build entirely fictional fixtures under tests/fixtures/synthetic/.
 
-Shapes follow reference/auvik-openapi-v1.json (JSON:API envelopes). Every value
+Shapes follow Auvik's published OpenAPI document (JSON:API envelopes). Every value
 is invented — no real tenant data is here, which is why these files are
 committed. Where the live API is known to disagree with that OpenAPI file, the
 fixtures follow the LIVE behaviour (see docs/API-DEVIATIONS.md), so the offline
@@ -135,7 +135,7 @@ def audit(aid, user, category, status, device_id, device_name, started, last_act
 
 def lifecycle(lid, device_id, device_name, sales, software, security, last_support):
     """Statuses are Title-Case because the LIVE API is (deviation D-9), even
-    though reference/auvik-openapi-v1.json documents camelCase. Lowercase
+    though Auvik's OpenAPI document declares camelCase. Lowercase
     fixtures would have let `has_problem` pass offline while matching NOTHING on
     real data - a fabricated zero on the tool's default view. Same remedy as
     D-8: the offline tier carries production's spelling so the two cannot

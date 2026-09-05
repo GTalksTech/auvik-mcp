@@ -46,7 +46,7 @@ def _section(text: str, heading: str) -> str:
 
 # --- D-4: filter[thruTime] is REQUIRED, not optional -------------------------
 
-ATTRIBUTION = ("document", "openapi", "vendor", "auvik-openapi-v1.json", "d-4", "| d-4 |")
+ATTRIBUTION = ("document", "openapi", "vendor", "auvik", "d-4", "| d-4 |")
 
 
 def test_docs_never_call_thrutime_optional_in_their_own_voice():

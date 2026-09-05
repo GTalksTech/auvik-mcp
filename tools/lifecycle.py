@@ -10,8 +10,8 @@ warranty ids equalled the lifecycle records' relationships.device.data.id
 exactly - so the merge is by id.
 
 **Deviation D-9** (docs/API-DEVIATIONS.md). The live API returns Title-Case
-statuses ("Expired", "Available", "Unpublished"); the vendor's own
-`reference/auvik-openapi-v1.json` documents camelCase ("expired", "available",
+statuses ("Expired", "Available", "Unpublished"); Auvik's own published OpenAPI
+document declares the enum in camelCase ("expired", "available",
 "unpublished"). Comparing exactly, as the OpenAPI file implies, flags
 has_problem on NOTHING - including on records where Auvik is reporting
 `Expired` in the very same payload. That is a fabricated zero on this tool's

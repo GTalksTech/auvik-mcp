@@ -364,11 +364,10 @@ A sibling server built on the same envelope contract and skeleton: [GTalksTech/s
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). Everything in this repository is my own work.
 
-**One exception.** `reference/auvik-openapi-v1.json` is **Auvik's** published
-OpenAPI document, reproduced here unmodified so the deviations above can be
-checked against their source. It is Auvik Inc.'s copyright, not mine, and the
-MIT grant above does not extend to it. If you are redistributing this repo,
-check Auvik's terms for that file, or drop it — nothing in the code or the test
-suite depends on its presence.
+Auvik's OpenAPI document is deliberately **not** vendored here: it is Auvik's
+copyright, and shipping it inside an MIT-licensed repo would claim a grant over
+it that is not mine to give. `docs/API-DEVIATIONS.md` links to Auvik's
+documentation and records the SHA-256 of the revision its claims were checked
+against, so you can verify them against your own copy.

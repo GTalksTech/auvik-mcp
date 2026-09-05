@@ -162,9 +162,9 @@ def test_get_all_wraps_object_data_on_followed_pages_too():
 
 
 def test_empty_body_at_2xx_is_success_not_a_parse_failure():
-    """reference/auvik-openapi-v1.json documents /v1/authentication/verify's 200
-    as `content: {}`, and POST /v1/alert/dismiss/{id}'s 200 with no `content`
-    key at all — neither promises a body.
+    """Auvik's OpenAPI document declares /v1/authentication/verify's 200 as
+    `content: {}`, and POST /v1/alert/dismiss/{id}'s 200 with no `content` key
+    at all — neither promises a body.
     Treating that as a parse failure made verify() report 'unavailable' against
     a credential Auvik had just confirmed valid (found on the first live run),
     and would have made a SUCCESSFUL dismissal report unavailable

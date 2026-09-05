@@ -45,10 +45,29 @@ report say "nothing is expired" while sitting on records where Auvik is
 reporting `Expired`. No offline test could have caught either, because the
 fixtures were built from the same document that was wrong.
 
-The authoritative copy of the vendor document is checked in at
-`reference/auvik-openapi-v1.json` so you can see the disagreement for yourself.
-That file is **Auvik's**, reproduced unmodified, and is not covered by this
-repo's MIT licence — see the note at the end of the README.
+## Checking any of this yourself
+
+Every claim below about what the document says is checkable, and you should
+check it — this file is only worth anything if it is falsifiable.
+
+Auvik's OpenAPI document is **not** reproduced here. It is Auvik's copyright,
+and republishing 638 KB of it inside an MIT-licensed repo would be claiming a
+grant over it that is not mine to give. Get it from Auvik instead — their API
+documentation is linked from
+[support.auvik.com](https://support.auvik.com/hc/en-us/articles/360017965092),
+and each region serves its own copy from `https://auvikapi.<region>.my.auvik.com`.
+
+So that you can tell whether you are reading the same document I did:
+
+```
+sha256  302e61b9c9380a0ec834db1738d355952b296e75d6825d95e12a26123d2d3ce5
+        OpenAPI 3.0.1 · info.title "Auvik API" · info.version "v1" · 50 paths
+```
+
+If your copy hashes differently, Auvik has revised it — in which case a
+deviation below may have been fixed, and I would genuinely like to know. The
+short fragments quoted in each entry are reproduced verbatim from that copy so
+the specific claim can be checked without the whole file.
 
 | # | Subject | Vendor document says | Live API does | Severity |
 |---|---|---|---|---|
