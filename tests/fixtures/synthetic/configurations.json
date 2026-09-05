@@ -1,0 +1,122 @@
+{
+ "data": [
+  {
+   "type": "configuration",
+   "id": "CFG-1",
+   "attributes": {
+    "backupTime": "2026-08-27T03:00:00.000Z",
+    "isRunning": false
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "configuration",
+   "id": "CFG-2",
+   "attributes": {
+    "backupTime": "2026-08-28T03:00:00.000Z",
+    "isRunning": false
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "configuration",
+   "id": "CFG-3",
+   "attributes": {
+    "backupTime": "2026-08-29T03:00:00.000Z",
+    "isRunning": true
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "configuration",
+   "id": "CFG-4",
+   "attributes": {
+    "backupTime": "2026-08-01T03:00:00.000Z",
+    "isRunning": false
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-2",
+      "attributes": {
+       "deviceName": "edge-fw-01"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "data": [
+  {
+   "type": "component",
+   "id": "CMP-1",
+   "attributes": {
+    "componentName": "CPU 0",
+    "componentType": "cpu",
+    "currentStatus": "ok",
+    "lastModified": "2026-08-28T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "component",
+   "id": "CMP-2",
+   "attributes": {
+    "componentName": "Fan 1",
+    "componentType": "fan",
+    "currentStatus": "degraded",
+    "lastModified": "2026-08-28T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "component",
+   "id": "CMP-3",
+   "attributes": {
+    "componentName": "Power Supply 2",
+    "componentType": "powerSupply",
+    "currentStatus": "failed",
+    "lastModified": "2026-08-28T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "type": "device",
+      "id": "DEV-2",
+      "attributes": {
+       "deviceName": "edge-fw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "component",
+   "id": "CMP-4",
+   "attributes": {
+    "componentName": "Disk 0",
+    "componentType": "disk",
+    "currentStatus": "ok",
+    "lastModified": "2026-08-28T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "type": "device",
+      "id": "DEV-2",
+      "attributes": {
+       "deviceName": "edge-fw-01"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

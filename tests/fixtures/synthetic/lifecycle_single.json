@@ -1,0 +1,33 @@
+{
+ "data": {
+  "type": "deviceLifecycle",
+  "id": "LC-2",
+  "attributes": {
+   "deviceName": "edge-fw-01",
+   "salesAvailability": "Expired",
+   "softwareMaintenanceStatus": "SecurityOnly",
+   "securitySoftwareMaintenanceStatus": "SecurityOnly",
+   "lastSupportStatus": "Expired"
+  },
+  "relationships": {
+   "tenant": {
+    "data": {
+     "type": "tenant",
+     "id": "T1",
+     "attributes": {
+      "domainPrefix": "acme-hq"
+     }
+    }
+   },
+   "device": {
+    "data": {
+     "type": "device",
+     "id": "DEV-2",
+     "attributes": {
+      "deviceName": "edge-fw-01"
+     }
+    }
+   }
+  }
+ }
+}

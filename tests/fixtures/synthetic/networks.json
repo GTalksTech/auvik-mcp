@@ -1,0 +1,117 @@
+{
+ "data": [
+  {
+   "type": "network",
+   "id": "NET-1",
+   "attributes": {
+    "networkType": "routed",
+    "networkName": "10.10.0.0/24",
+    "description": "10.10.0.0/24",
+    "scanStatus": "true",
+    "lastModified": "2026-08-20T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "devices": {
+     "data": [
+      {
+       "type": "device",
+       "id": "DEV-1",
+       "attributes": {
+        "deviceName": "core-sw-01"
+       }
+      },
+      {
+       "type": "device",
+       "id": "DEV-2",
+       "attributes": {
+        "deviceName": "edge-fw-01"
+       }
+      }
+     ]
+    }
+   },
+   "links": {
+    "self": "https://auvikapi.us1.my.auvik.com/v1/inventory/network/info/NET-1"
+   }
+  },
+  {
+   "type": "network",
+   "id": "NET-2",
+   "attributes": {
+    "networkType": "vlan",
+    "networkName": "VLAN 20 - Voice",
+    "description": "VLAN 20 - Voice",
+    "scanStatus": "false",
+    "lastModified": "2026-08-20T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "devices": {
+     "data": [
+      {
+       "type": "device",
+       "id": "DEV-1",
+       "attributes": {
+        "deviceName": "core-sw-01"
+       }
+      }
+     ]
+    }
+   },
+   "links": {
+    "self": "https://auvikapi.us1.my.auvik.com/v1/inventory/network/info/NET-2"
+   }
+  },
+  {
+   "type": "network",
+   "id": "NET-3",
+   "attributes": {
+    "networkType": "wifi",
+    "networkName": "Guest-WiFi",
+    "description": "Guest-WiFi",
+    "scanStatus": "notAllowed",
+    "lastModified": "2026-08-20T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "devices": {
+     "data": []
+    }
+   },
+   "links": {
+    "self": "https://auvikapi.us1.my.auvik.com/v1/inventory/network/info/NET-3"
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

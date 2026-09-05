@@ -1,0 +1,950 @@
+{
+ "data": [
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M1",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M1",
+      "type": "interface",
+      "interfaceName": "Port 1",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M2",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M2",
+      "type": "interface",
+      "interfaceName": "Port 2",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M3",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M3",
+      "type": "interface",
+      "interfaceName": "Port 3",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M4",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": [
+       [
+        29799780,
+        10.0,
+        20.0
+       ],
+       [
+        29799840,
+        11.0,
+        21.0
+       ],
+       [
+        29799900,
+        12.0,
+        22.0
+       ],
+       [
+        29799960,
+        13.0,
+        23.0
+       ],
+       [
+        29800020,
+        14.0,
+        24.0
+       ],
+       [
+        29800080,
+        15.0,
+        25.0
+       ]
+      ]
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M4",
+      "type": "interface",
+      "interfaceName": "Port 4",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M5",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": [
+       [
+        29799780,
+        10.0,
+        20.0
+       ],
+       [
+        29799840,
+        11.0,
+        21.0
+       ],
+       [
+        29799900,
+        12.0,
+        22.0
+       ],
+       [
+        29799960,
+        13.0,
+        23.0
+       ],
+       [
+        29800020,
+        14.0,
+        24.0
+       ],
+       [
+        29800080,
+        15.0,
+        25.0
+       ]
+      ]
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M5",
+      "type": "interface",
+      "interfaceName": "Port 5",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M6",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": [
+       [
+        29799780,
+        10.0,
+        20.0
+       ],
+       [
+        29799840,
+        11.0,
+        21.0
+       ],
+       [
+        29799900,
+        12.0,
+        22.0
+       ],
+       [
+        29799960,
+        13.0,
+        23.0
+       ],
+       [
+        29800020,
+        14.0,
+        24.0
+       ],
+       [
+        29800080,
+        15.0,
+        25.0
+       ]
+      ]
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M6",
+      "type": "interface",
+      "interfaceName": "Port 6",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M7",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M7",
+      "type": "interface",
+      "interfaceName": "Port 7",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M8",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": [
+       [
+        29799780,
+        10.0,
+        20.0
+       ],
+       [
+        29799840,
+        11.0,
+        21.0
+       ],
+       [
+        29799900,
+        12.0,
+        22.0
+       ],
+       [
+        29799960,
+        13.0,
+        23.0
+       ],
+       [
+        29800020,
+        14.0,
+        24.0
+       ],
+       [
+        29800080,
+        15.0,
+        25.0
+       ]
+      ]
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M8",
+      "type": "interface",
+      "interfaceName": "Port 8",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M9",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M9",
+      "type": "interface",
+      "interfaceName": "Port 9",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M10",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M10",
+      "type": "interface",
+      "interfaceName": "Port 10",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M11",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M11",
+      "type": "interface",
+      "interfaceName": "Port 11",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M12",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M12",
+      "type": "interface",
+      "interfaceName": "Port 12",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M13",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M13",
+      "type": "interface",
+      "interfaceName": "Port 13",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M14",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M14",
+      "type": "interface",
+      "interfaceName": "Port 14",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M15",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M15",
+      "type": "interface",
+      "interfaceName": "Port 15",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M16",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M16",
+      "type": "interface",
+      "interfaceName": "Port 16",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "interfaceStatistics",
+   "id": "ST-IF-M17",
+   "attributes": {
+    "reportPeriod": {
+     "fromTime": "2026-08-28T12:00:00.000Z",
+     "thruTime": "2026-08-29T12:00:00.000Z"
+    },
+    "interval": "hour",
+    "statType": "interfaceUtilization",
+    "stats": [
+     {
+      "name": null,
+      "index": null,
+      "legend": [
+       "Recorded At",
+       "Transmit",
+       "Receive"
+      ],
+      "unit": [
+       "unix_mins",
+       "percent",
+       "percent"
+      ],
+      "data": []
+     }
+    ]
+   },
+   "relationships": {
+    "interface": {
+     "data": {
+      "id": "IF-M17",
+      "type": "interface",
+      "interfaceName": "Port 17",
+      "parentDevice": "DEV-1"
+     }
+    },
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

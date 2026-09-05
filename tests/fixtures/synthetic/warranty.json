@@ -1,0 +1,58 @@
+{
+ "data": [
+  {
+   "type": "deviceWarranty",
+   "id": "DEV-1",
+   "attributes": {
+    "deviceName": "core-sw-01",
+    "serviceCoverageStatus": "Covered",
+    "serviceAttachmentStatus": "Available",
+    "contractRenewalAvailability": "Available",
+    "warrantyCoverageStatus": "Available",
+    "warrantyExpirationDate": "2027-01-01 00:00:00.000+0000",
+    "recommendedSoftwareVersion": "1.2.4"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "deviceWarranty",
+   "id": "DEV-2",
+   "attributes": {
+    "deviceName": "edge-fw-01",
+    "serviceCoverageStatus": "Covered",
+    "serviceAttachmentStatus": "Available",
+    "contractRenewalAvailability": "Available",
+    "warrantyCoverageStatus": "Expired",
+    "warrantyExpirationDate": "2024-06-30 00:00:00.000+0000",
+    "recommendedSoftwareVersion": "1.2.4"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

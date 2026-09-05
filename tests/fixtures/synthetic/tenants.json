@@ -1,0 +1,12 @@
+{
+ "data": [
+  {
+   "type": "tenant",
+   "id": "T1",
+   "attributes": {
+    "domainPrefix": "acme-hq",
+    "tenantType": "corporateIt"
+   }
+  }
+ ]
+}

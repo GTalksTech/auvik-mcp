@@ -1,0 +1,98 @@
+{
+ "data": [
+  {
+   "type": "device",
+   "id": "DEV-1",
+   "attributes": {
+    "ipAddresses": [
+     "10.10.0.1"
+    ],
+    "deviceName": "core-sw-01",
+    "deviceType": "switch",
+    "makeModel": "Catalyst 9300",
+    "vendorName": "Cisco",
+    "softwareVersion": "1.2.3",
+    "serialNumber": "SN-CORE1",
+    "description": "Cisco Catalyst 9300",
+    "firmwareVersion": "fw-9",
+    "lastModified": "2026-08-01T00:00:00.000Z",
+    "lastSeenTime": "2026-08-29T06:00:00.000Z",
+    "onlineStatus": "online"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "networks": {
+     "data": []
+    },
+    "deviceDetail": {
+     "data": {
+      "type": "deviceDetail",
+      "id": "DEV-1"
+     }
+    }
+   },
+   "links": {
+    "dashboard": "https://acme-hq.my.auvik.com/#entity/device/1",
+    "self": "https://auvikapi.us1.my.auvik.com/v1/inventory/device/info/DEV-1"
+   }
+  },
+  {
+   "type": "device",
+   "id": "DEV-2",
+   "attributes": {
+    "ipAddresses": [
+     "10.10.0.254"
+    ],
+    "deviceName": "edge-fw-01",
+    "deviceType": "firewall",
+    "makeModel": "FortiGate 100F",
+    "vendorName": "Fortinet",
+    "softwareVersion": "1.2.3",
+    "serialNumber": "SN-EDGE1",
+    "description": "Fortinet FortiGate 100F",
+    "firmwareVersion": "fw-9",
+    "lastModified": "2026-08-01T00:00:00.000Z",
+    "lastSeenTime": "2026-08-29T06:00:00.000Z",
+    "onlineStatus": "offline"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "networks": {
+     "data": []
+    },
+    "deviceDetail": {
+     "data": {
+      "type": "deviceDetail",
+      "id": "DEV-2"
+     }
+    }
+   },
+   "links": {
+    "dashboard": "https://acme-hq.my.auvik.com/#entity/device/1",
+    "self": "https://auvikapi.us1.my.auvik.com/v1/inventory/device/info/DEV-2"
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

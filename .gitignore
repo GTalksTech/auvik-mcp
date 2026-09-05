@@ -1,0 +1,27 @@
+# virtualenvs / build
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# real Auvik data — never committed
+tests/fixtures/recorded/
+audit/
+
+# secrets
+.env
+*.env
+*.key
+*.pem
+secrets.*
+
+# local scratch
+scratch/
+tmp/
+*.local
+*.log

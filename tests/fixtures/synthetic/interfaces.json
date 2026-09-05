@@ -1,0 +1,111 @@
+{
+ "data": [
+  {
+   "type": "interface",
+   "id": "IF-1",
+   "attributes": {
+    "interfaceName": "GigabitEthernet1/0/1",
+    "interfaceType": "ethernet",
+    "macAddress": "1A:2B:3C:4D:5E:6F",
+    "negotiatedSpeed": "1.0 Gbit/s",
+    "duplex": "full",
+    "customConnections": false,
+    "ipAddresses": [
+     "10.10.0.1"
+    ],
+    "operationalStatus": "online",
+    "adminStatus": true,
+    "lastModified": "2026-08-01T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "id": "DEV-1",
+      "type": "device"
+     }
+    }
+   }
+  },
+  {
+   "type": "interface",
+   "id": "IF-2",
+   "attributes": {
+    "interfaceName": "GigabitEthernet1/0/2",
+    "interfaceType": "ethernet",
+    "macAddress": "1A:2B:3C:4D:5E:6F",
+    "negotiatedSpeed": "1.0 Gbit/s",
+    "duplex": "full",
+    "customConnections": false,
+    "ipAddresses": [],
+    "operationalStatus": "offline",
+    "adminStatus": false,
+    "lastModified": "2026-08-01T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "id": "DEV-1",
+      "type": "device"
+     }
+    }
+   }
+  },
+  {
+   "type": "interface",
+   "id": "IF-3",
+   "attributes": {
+    "interfaceName": "Vlan10",
+    "interfaceType": "vlan",
+    "macAddress": "1A:2B:3C:4D:5E:6F",
+    "negotiatedSpeed": "",
+    "duplex": "full",
+    "customConnections": false,
+    "ipAddresses": [],
+    "operationalStatus": "online",
+    "adminStatus": true,
+    "lastModified": "2026-08-01T00:00:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "parentDevice": {
+     "data": {
+      "id": "DEV-1",
+      "type": "device"
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

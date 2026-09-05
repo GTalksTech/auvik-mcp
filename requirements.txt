@@ -1,0 +1,10 @@
+# Runtime dependencies for the Auvik MCP server.
+#
+# Direct deps are pinned here; the FULL transitive set is pinned in
+# constraints.txt. Install them together, and never float one:
+#
+#     .venv\Scripts\python.exe -m pip install -r requirements.txt -c constraints.txt
+fastmcp==3.4.7
+requests==2.34.2
+keyring==25.7.0
+uvicorn==0.52.4

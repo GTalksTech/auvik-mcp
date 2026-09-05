@@ -1,0 +1,56 @@
+{
+ "data": {
+  "type": "alert",
+  "id": "AL-1",
+  "attributes": {
+   "name": "Device Offline",
+   "severity": "warning",
+   "status": "created",
+   "alertDefinitionId": "DEF-1",
+   "specificationId": "-400",
+   "detectedOn": "2026-08-29T05:00:00.000Z",
+   "description": "desc",
+   "dismissed": false,
+   "dispatched": true,
+   "externalTicket": [
+    {
+     "id": "56003",
+     "system": "Microsoft_Teams"
+    }
+   ]
+  },
+  "links": {
+   "dashboard": "https://acme-hq.my.auvik.com/#alert/AL-1",
+   "self": "https://auvikapi.us1.my.auvik.com/v1/alert/history/info/AL-1"
+  },
+  "relationships": {
+   "tenant": {
+    "data": {
+     "type": "tenant",
+     "id": "T1",
+     "attributes": {
+      "domainPrefix": "acme-hq"
+     }
+    }
+   },
+   "relatedAlert": {
+    "data": {
+     "type": "alert",
+     "id": "AL-REL",
+     "attributes": {
+      "name": "Cleared"
+     }
+    }
+   },
+   "entity": {
+    "data": {
+     "type": "device",
+     "id": "DEV-1",
+     "links": {
+      "dashboard": "https://acme-hq.my.auvik.com/#entity"
+     }
+    }
+   }
+  }
+ }
+}

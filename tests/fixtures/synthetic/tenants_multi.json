@@ -1,0 +1,44 @@
+{
+ "data": [
+  {
+   "type": "tenant",
+   "id": "T0",
+   "attributes": {
+    "domainPrefix": "acme-root",
+    "tenantType": "multiClient"
+   }
+  },
+  {
+   "type": "tenant",
+   "id": "T1",
+   "attributes": {
+    "domainPrefix": "acme-hq",
+    "tenantType": "client"
+   }
+  },
+  {
+   "type": "tenant",
+   "id": "T2",
+   "attributes": {
+    "domainPrefix": "acme-bos",
+    "tenantType": "client"
+   }
+  },
+  {
+   "type": "tenant",
+   "id": "T3",
+   "attributes": {
+    "domainPrefix": "acme-bos-dr",
+    "tenantType": "client"
+   }
+  },
+  {
+   "type": "tenant",
+   "id": "T4",
+   "attributes": {
+    "domainPrefix": "acme-misc",
+    "tenantType": "client"
+   }
+  }
+ ]
+}

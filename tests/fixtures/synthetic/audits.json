@@ -1,0 +1,115 @@
+{
+ "data": [
+  {
+   "type": "entityAudit",
+   "id": "AUD-1",
+   "attributes": {
+    "user": "Alex Netadmin",
+    "category": "terminal",
+    "action": "create",
+    "direction": "outbound",
+    "status": "closed",
+    "cause": "",
+    "data": "session opened",
+    "dateStarted": "2026-08-28T14:00:00.000Z",
+    "lastActive": "2026-08-28T14:25:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "entityAudit",
+   "id": "AUD-2",
+   "attributes": {
+    "user": "Jane Tech",
+    "category": "tunnel",
+    "action": "create",
+    "direction": "outbound",
+    "status": "created",
+    "cause": "",
+    "data": "session opened",
+    "dateStarted": "2026-08-29T09:00:00.000Z",
+    "lastActive": "2026-08-29T09:30:00.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-2",
+      "attributes": {
+       "deviceName": "edge-fw-01"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "entityAudit",
+   "id": "AUD-3",
+   "attributes": {
+    "user": "Alex Netadmin",
+    "category": "remoteBrowser",
+    "action": "create",
+    "direction": "outbound",
+    "status": "failed",
+    "cause": "connection refused",
+    "data": "session opened",
+    "dateStarted": "2026-08-27T08:00:00.000Z",
+    "lastActive": "2026-08-27T08:00:10.000Z"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "device": {
+     "data": {
+      "type": "device",
+      "id": "DEV-1",
+      "attributes": {
+       "deviceName": "core-sw-01"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

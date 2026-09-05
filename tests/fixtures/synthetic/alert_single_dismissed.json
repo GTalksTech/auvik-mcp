@@ -1,0 +1,56 @@
+{
+ "data": {
+  "type": "alert",
+  "id": "AL-DISMISSED",
+  "attributes": {
+   "name": "Old Alert",
+   "severity": "info",
+   "status": "resolved",
+   "alertDefinitionId": "DEF-1",
+   "specificationId": "-400",
+   "detectedOn": "2026-08-01T00:00:00.000Z",
+   "description": "desc",
+   "dismissed": true,
+   "dispatched": true,
+   "externalTicket": [
+    {
+     "id": "56003",
+     "system": "Microsoft_Teams"
+    }
+   ]
+  },
+  "links": {
+   "dashboard": "https://acme-hq.my.auvik.com/#alert/AL-DISMISSED",
+   "self": "https://auvikapi.us1.my.auvik.com/v1/alert/history/info/AL-DISMISSED"
+  },
+  "relationships": {
+   "tenant": {
+    "data": {
+     "type": "tenant",
+     "id": "T1",
+     "attributes": {
+      "domainPrefix": "acme-hq"
+     }
+    }
+   },
+   "relatedAlert": {
+    "data": {
+     "type": "alert",
+     "id": "AL-REL",
+     "attributes": {
+      "name": "Cleared"
+     }
+    }
+   },
+   "entity": {
+    "data": {
+     "type": "device",
+     "id": "DEV-2",
+     "links": {
+      "dashboard": "https://acme-hq.my.auvik.com/#entity"
+     }
+    }
+   }
+  }
+ }
+}

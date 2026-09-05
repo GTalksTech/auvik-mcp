@@ -1,0 +1,109 @@
+{
+ "data": [
+  {
+   "type": "alert",
+   "id": "AL-3",
+   "attributes": {
+    "name": "Device Back Online",
+    "severity": "info",
+    "status": "resolved",
+    "alertDefinitionId": "DEF-1",
+    "specificationId": "-400",
+    "detectedOn": "2026-08-28T22:00:00.000Z",
+    "description": "desc",
+    "dismissed": false,
+    "dispatched": true,
+    "externalTicket": [
+     {
+      "id": "56003",
+      "system": "Microsoft_Teams"
+     }
+    ]
+   },
+   "links": {
+    "dashboard": "https://acme-hq.my.auvik.com/#alert/AL-3",
+    "self": "https://auvikapi.us1.my.auvik.com/v1/alert/history/info/AL-3"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "relatedAlert": {
+     "data": {
+      "type": "alert",
+      "id": "AL-REL",
+      "attributes": {
+       "name": "Cleared"
+      }
+     }
+    },
+    "entity": {
+     "data": {
+      "type": "device",
+      "id": "DEV-2",
+      "links": {
+       "dashboard": "https://acme-hq.my.auvik.com/#entity"
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "alert",
+   "id": "AL-4",
+   "attributes": {
+    "name": "Auvik Collector Reconnected",
+    "severity": "warning",
+    "status": "resolved",
+    "alertDefinitionId": "DEF-1",
+    "specificationId": "-400",
+    "detectedOn": "2026-08-28T21:00:00.000Z",
+    "description": "The Auvik collector at 10.10.0.9 has reconnected to the cloud",
+    "dismissed": false,
+    "dispatched": true,
+    "externalTicket": [
+     {
+      "id": "56003",
+      "system": "Microsoft_Teams"
+     }
+    ]
+   },
+   "links": {
+    "dashboard": "https://acme-hq.my.auvik.com/#alert/AL-4",
+    "self": "https://auvikapi.us1.my.auvik.com/v1/alert/history/info/AL-4"
+   },
+   "relationships": {
+    "tenant": {
+     "data": {
+      "type": "tenant",
+      "id": "T1",
+      "attributes": {
+       "domainPrefix": "acme-hq"
+      }
+     }
+    },
+    "relatedAlert": {
+     "data": {
+      "type": "alert",
+      "id": "AL-REL",
+      "attributes": {
+       "name": "Cleared"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {
+  "first": "https://auvikapi.us1.my.auvik.com/v1/x"
+ },
+ "meta": {
+  "totalPages": 1
+ }
+}

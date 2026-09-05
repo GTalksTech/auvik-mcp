@@ -1,0 +1,113 @@
+{
+ "data": {
+  "type": "deviceDetail",
+  "id": "DEV-1",
+  "attributes": {
+   "discoveryStatus": {
+    "snmp": "authorized",
+    "login": "privileged",
+    "wmi": "disabled",
+    "vmware": "disabled"
+   },
+   "manageStatus": true,
+   "trafficInsightsStatus": "notDetected"
+  },
+  "relationships": {
+   "tenant": {
+    "data": {
+     "type": "tenant",
+     "id": "T1",
+     "attributes": {
+      "domainPrefix": "acme-hq"
+     }
+    }
+   },
+   "connectedDevices": {
+    "data": [
+     {
+      "type": "device",
+      "id": "DEV-2",
+      "attributes": {
+       "deviceName": "edge-fw-01"
+      }
+     },
+     {
+      "type": "device",
+      "id": "DEV-9",
+      "attributes": {
+       "deviceName": "ap-lobby-01"
+      }
+     }
+    ]
+   },
+   "interfaces": {
+    "data": [
+     {
+      "type": "interface",
+      "id": "IF-1",
+      "attributes": {
+       "interfaceName": "Gi1/0/1",
+       "macAddress": "1A:2B:3C:4D:5E:6F"
+      }
+     },
+     {
+      "type": "interface",
+      "id": "IF-2",
+      "attributes": {
+       "interfaceName": "Gi1/0/2",
+       "macAddress": "1A:2B:3C:4D:5E:6F"
+      }
+     },
+     {
+      "type": "interface",
+      "id": "IF-3",
+      "attributes": {
+       "interfaceName": "Gi1/0/3",
+       "macAddress": "1A:2B:3C:4D:5E:6F"
+      }
+     }
+    ]
+   },
+   "configurations": {
+    "data": [
+     {
+      "type": "configuration",
+      "id": "CFG-2",
+      "attributes": {
+       "isRunning": false,
+       "backupTime": "2026-08-28T03:00:00.000Z"
+      }
+     },
+     {
+      "type": "configuration",
+      "id": "CFG-3",
+      "attributes": {
+       "isRunning": true,
+       "backupTime": "2026-08-29T03:00:00.000Z"
+      }
+     }
+    ]
+   },
+   "components": {
+    "data": [
+     {
+      "type": "component",
+      "id": "CMP-1",
+      "attributes": {
+       "componentName": "CPU 0",
+       "componentType": "cpu"
+      }
+     },
+     {
+      "type": "component",
+      "id": "CMP-2",
+      "attributes": {
+       "componentName": "Fan 1",
+       "componentType": "fan"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
