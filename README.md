@@ -358,6 +358,14 @@ against a real tenant. Both are **GET-only** and issue no writes of any kind.
 - **Inbound auth fails closed** in HTTP mode, with a constant-time comparison,
   and `/health` is the only exempt path.
 
+## Contributing
+
+Pull requests and issues are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md)
+first: the offline test suite must pass, fixtures stay synthetic, and any new
+write to Auvik starts as an issue, not a pull request. Found the API
+contradicting its own documentation? That is a welcome addition to
+[docs/API-DEVIATIONS.md](docs/API-DEVIATIONS.md).
+
 ## See also
 
 A sibling server built on the same envelope contract and skeleton: [GTalksTech/sonicwall-mcp](https://github.com/GTalksTech/sonicwall-mcp).
