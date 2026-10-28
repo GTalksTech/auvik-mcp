@@ -42,7 +42,8 @@ python3.12 -m venv .venv
 On Windows use `py -3.12` and `.venv\Scripts\python.exe`.
 
 The suite runs entirely offline and must pass before a pull request is
-reviewed. It blocks real sockets and real credential loads, so you do not need
+reviewed. GitHub Actions runs it on every pull request, and `main` will not
+accept a merge until it passes. It blocks real sockets and real credential loads, so you do not need
 an Auvik tenant to contribute.
 
 ## Fixtures and test data
@@ -66,8 +67,12 @@ an Auvik tenant to contribute.
 
 ## Reporting a security issue
 
-Please do not open a public issue for a security problem. Email
-garrett@gtalkstech.com with the details and I will respond there.
+Please do not open a public issue for a security problem. Report it privately
+through GitHub instead: the repository's **Security** tab, then **Report a
+vulnerability**
+([direct link](https://github.com/GTalksTech/auvik-mcp/security/advisories/new)).
+Only you and the maintainer can see the report. If you cannot use GitHub,
+email garrett@gtalkstech.com.
 
 ## License
 
